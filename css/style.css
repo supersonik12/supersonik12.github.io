@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-weight: 400;
+}
+
+.header-banner {
+    padding-top: 35px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.cell {
+    min-height: 75px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+#sidebar {
+    flex-basis: 30%;
+    text-align: center;
+    font-size: 36px;
+}
+
+#intro-block {
+    flex-basis: 70%;
+}
+
+#about-link {
+    color: #1265Ba;
+    display: block;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 60px 40px 60px;
+    border-right: solid;
+
+}
+
+#projects-link {
+    color: #60b37b;
+    display: block;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 60px 40px 60px;
+    border-right: solid;
+}
+
+#option3-link {
+    color: #00968b;
+    display: block;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 60px 40px 60px;
+    border-right: solid;
+
+}
+
+#contact-link {
+    color: #99bc00;
+    display: block;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 60px 40px 60px;
+    border-right: solid;
+
+}
+
+#intro-block {
+    padding-left: 30px;
+}
+
+#hello {
+    padding: 10px 10px 0px 10px;
+    font-size: 64px;
+    color: #1265Ba;
+
+}
+
+#intro {
+    padding: 0px 10px 10px 10px ;
+    font-size: 30px;
+    color: #1265Ba;
+
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
