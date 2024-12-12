@@ -14,17 +14,14 @@
 body {
     font-family: "Markazi Text", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
 }
 
-p {
-    font-weight: 400;
-}
-
 .header-banner {
-    padding-top: 35px;
-    padding-bottom: 100px;
+    height: 100px;
+    background-position: left;
+    padding-bottom: 30px;
     color: #ffffff;
 }
 
@@ -43,9 +40,14 @@ p {
 }
 
 #sidebar {
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    top: 0; 
     flex-basis: 30%;
     text-align: center;
     font-size: 36px;
+    font-weight: 600;
 }
 
 #intro-block {
@@ -57,7 +59,7 @@ p {
     text-decoration: none;
     display: block;
     padding: 0px 10px 0px 10px;
-    margin: 0px 60px 40px 60px;
+    margin: 60px 60px 40px 60px;
     border-right: solid;
     background: linear-gradient(to right, white 50%, var(--color1-blue) 50%) left;
     background-size: 200%;
@@ -130,6 +132,7 @@ p {
 
 #hello {
     padding: 10px 10px 0px 10px;
+    font-weight: 700;
     font-size: 64px;
     color: #1265Ba;
 
