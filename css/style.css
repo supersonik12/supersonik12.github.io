@@ -4,6 +4,7 @@
     --color2-green: #60b37b;
     --color3-teal: #00968b;
     --color4-yellowgreen: #99bc00;
+    --accent-darkblue: #163a4a;
 }
 
 * {
@@ -16,6 +17,30 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 10px 30px 10px;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h2 {
+    margin: 0;
+    padding: 30px 10px 30px 10px;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration:none;
+    color: var(--accent-darkblue);
 }
 
 .header-banner {
@@ -50,7 +75,7 @@ body {
     font-weight: 600;
 }
 
-#intro-block {
+#content {
     flex-basis: 70%;
 }
 
@@ -76,6 +101,7 @@ body {
 /* Sliding color code from https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css */
 #projects-link {
     color: var(--color2-green);
+    text-decoration: none;
     display: block;
     padding: 0px 10px 0px 10px;
     margin: 0px 60px 40px 60px;
@@ -93,6 +119,7 @@ body {
 
 #option3-link {
     color: var(--color3-teal);
+    text-decoration: none;
     display: block;
     padding: 0px 10px 0px 10px;
     margin: 0px 60px 40px 60px;
@@ -111,6 +138,7 @@ body {
 
 #contact-link {
     color: var(--color4-yellowgreen);
+    text-decoration: none;
     display: block;
     padding: 0px 10px 0px 10px;
     margin: 0px 60px 40px 60px;
@@ -131,17 +159,29 @@ body {
 }
 
 #hello {
-    padding: 10px 10px 0px 10px;
-    font-weight: 700;
-    font-size: 64px;
-    color: #1265Ba;
-
+    color: var(--color1-blue);
 }
 
 #intro {
-    padding: 0px 10px 10px 10px ;
     font-size: 30px;
-    color: #1265Ba;
+    color: var(--color1-blue);
+}
+
+#projects {
+    color: var(--color2-green);
+}
+
+#option3 {
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--color3-teal);
+
+}
+
+#contact {
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--color4-yellowgreen);
 
 }
 
