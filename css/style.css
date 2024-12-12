@@ -1,3 +1,11 @@
+:root {
+    /* Colors: */
+    --color1-blue: #1265Ba;
+    --color2-green: #60b37b;
+    --color3-teal: #00968b;
+    --color4-yellowgreen: #99bc00;
+}
+
 * {
     box-sizing: border-box;
 
@@ -45,38 +53,75 @@ p {
 }
 
 #about-link {
-    color: #1265Ba;
+    color: var(--color1-blue);
+    text-decoration: none;
     display: block;
     padding: 0px 10px 0px 10px;
     margin: 0px 60px 40px 60px;
     border-right: solid;
-
+    background: linear-gradient(to right, white 50%, var(--color1-blue) 50%) left;
+    background-size: 200%;
+    transition: .3s ease-out;
 }
 
+#about-link:hover {
+    color: white;
+    border-color: var(--color1-blue);
+    background-position: right;
+}
+
+
+/* Sliding color code from https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css */
 #projects-link {
-    color: #60b37b;
+    color: var(--color2-green);
     display: block;
     padding: 0px 10px 0px 10px;
     margin: 0px 60px 40px 60px;
     border-right: solid;
+    background: linear-gradient(to right, white 50%, var(--color2-green) 50%) left;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+#projects-link:hover {
+    color: white;
+    border-color: var(--color2-green);
+    background-position:right;
 }
 
 #option3-link {
-    color: #00968b;
+    color: var(--color3-teal);
     display: block;
     padding: 0px 10px 0px 10px;
     margin: 0px 60px 40px 60px;
     border-right: solid;
+    background: linear-gradient(to right, white 50%, var(--color3-teal) 50%) left;
+    background-size: 200%;
+    transition: .3s ease-out;
 
 }
 
+#option3-link:hover {
+    color: white;
+    border-color: var(--color3-teal);
+    background-position:right;
+}
+
 #contact-link {
-    color: #99bc00;
+    color: var(--color4-yellowgreen);
     display: block;
     padding: 0px 10px 0px 10px;
     margin: 0px 60px 40px 60px;
     border-right: solid;
+    background: linear-gradient(to right, white 50%, var(--color4-yellowgreen) 50%) left;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
 
+#contact-link:hover {
+    color: white;
+    border-color: var(--color4-yellowgreen);
+    background-position:right;
 }
 
 #intro-block {
