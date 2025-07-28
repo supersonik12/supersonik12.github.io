@@ -11,81 +11,77 @@
 </head>
 
 <body>
+  <header class="header-banner" id="header"></header>
+  <div class="row" id="main">
+    <div class="cell" id="sidebar">
+      <a id="about-link" class="sidebar-item" href="#"><span>About</span></a>
+      <a id="projects-link" class="sidebar-item" href="#projects">Projects</a>
+      <a id="resume-link" class="sidebar-item" href="#resume">Resume</a>
+      <a id="contact-link" class="sidebar-item" href="#contact">Contact</a>
+    </div>
+    <div class="cell" id="content">
+      <div class="hello section">
+        <h1>Hi, I'm Saanika!</h1>
+        <h3 class="hello">Intro</h3>
+        <p id="intro">My name is Saanika Fadia. I'm passionate about programming, science, and language, just to name
+          a few.
+          I'm currently an undergrad at the University of Colorado Boulder,
+          where I'm majoring in Computer Science, and minoring in both
+          Computational Biology and Linguistics. I'm also currently working at the 
+          <a href="https://geneticlogiclab.org/">Genetic Logic Lab</a> as an undergraduate researcher.</p>
 
-  <body>
-    <header class="header-banner" id="header"></header>
-    <div class="row" id="main">
-      <div class="cell" id="sidebar">
-        <a id="about-link" class="sidebar-item" href="#"><span>About</span></a>
-        <a id="projects-link" class="sidebar-item" href="#projects">Projects</a>
-        <a id="option3-link" class="sidebar-item" href="#option3">Option&nbsp;3</a>
-        <a id="contact-link" class="sidebar-item" href="#contact">Contact</a>
+        <h3 class="hello">Coding</h3>
+        <ul class="hello">
+          <li>Skills: Java, Python (+ pandas, matplotlib), Git + Github, object-oriented programming </li>
+          <li>Currently learning: C++, Flutter, Dart</li>
+          <li>Want to learn: Unity, C</li>
+        </ul>
+        <h3 class="hello">Hobbies</h3>
+        <p class="hello">My hobbies include geocaching, sewing, and D&D. Recently, I've also gotten into climbing!</p>
+        <p class="hello">Currently reading: Exhalation by Ted Chiang</p>
       </div>
-      <div class="cell" id="content">
-        <div class="hello">
-          <h1>Hi, I'm Saanika!</h1>
-          <h3 class="hello">Intro</h3>
-          <p id="intro">My name is Saanika Fadia. I'm passionate about programming, science, and language, just to name
-            a few.
-            I'm currently an undergrad at the University of Colorado Boulder,
-            where I'm majoring in Computer Science, and minoring in both
-            Computational Biology and Linguistics.</p>
-
-          <h3 class="hello">Coding</h3>
-          <ul class="hello">
-            <li>Skills: Java, Python (+ pandas, matplotlib), Git + Github, object-oriented programming </li>
-            <li>Currently learning: C++, Flutter, Dart</li>
-            <li>Want to learn: Unity, C</li>
-          </ul>
-          <h3 class="hello">Hobbies</h3>
-          <p class="hello">My hobbies include geocaching, sewing, and D&D. Recently, I've also gotten into climbing!</p>
-          <p class="hello">Currently reading: A Storm of Swords by George R.R. Martin</p>
-
-        </div>
-        <div id="projects">
-          <h2>Projects</h2>
-          <div class="break"></div>
-          <div onclick="location.href='#'" style="cursor: pointer;" class="project-card">
-            <!-- <img src="250.png" style="width:100%"> -->
-            <div class="container">
-              <h3><b>Personal Website</b></h3>
-              <p padding="0px">You Are Here • 2024</p>
-            </div>
+      <div id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="break"></div>
+        <div onclick="location.href='#'" style="cursor: pointer;" class="project-card">
+          <!-- <img src="250.png" style="width:100%"> -->
+          <div class="container">
+            <h3><b>Personal Website</b></h3>
+            <p padding="0px">You Are Here • 2024</p>
           </div>
+        </div>
 
-          <div onclick="location.href='https://github.com/supersonik12/settlers-of-catan'" style="cursor: pointer;"
-            class="project-card">
-            <!-- <img src="250.png" style="width:100%"> -->
-            <div class="container">
-              <h3><b>Settlers of&nbsp;Catan</b></h3>
-              <p>Java (Swing GUI) • 2023</p>
-            </div>
+        <div onclick="location.href='https://github.com/supersonik12/settlers-of-catan'" style="cursor: pointer;"
+          class="project-card">
+          <!-- <img src="250.png" style="width:100%"> -->
+          <div class="container">
+            <h3><b>Settlers of&nbsp;Catan</b></h3>
+            <p>Java (Swing GUI) • 2023</p>
           </div>
+        </div>
 
-          <div onclick="location.href='https://supersonik12.github.io/book-app'" style="cursor: pointer;"
-            class="project-card">
-            <!-- <img src="250.png" style="width:100%"> -->
-            <div class="container">
-              <h3><b>Reading List Web App</b></h3>
-              <p padding="0px">HTML + CSS + JS • 2021</p>
-            </div>
+        <div onclick="location.href='https://supersonik12.github.io/book-app'" style="cursor: pointer;"
+          class="project-card">
+          <!-- <img src="250.png" style="width:100%"> -->
+          <div class="container">
+            <h3><b>Reading List Web App</b></h3>
+            <p padding="0px">HTML + CSS + JS • 2021</p>
           </div>
+        </div>
 
-        </div>
-        <div id="option3">
-          <h2>Option&nbsp;3</h2>
-          <p>[This section is under construction. Come back later!]</p>
-        </div>
-        <div id="contact">
-          <h2>Contact me:</h2>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/saanika-fadia/">Saanika Fadia</a></p>
-          <p>Github: <a href="https://www.github.com/supersonik12">supersonik12</a></p>
-          <p>Email: <a href="mailto:saanika.fadia@colorado.edu">saanika.fadia@colorado.edu</a></p>
-
-        </div>
+      </div>
+      <div id="resume" class="section">
+        <h2>Resume</h2>
+        <p>[This section is under construction. Come back later!]</p>
+      </div>
+      <div id="contact" class="section">
+        <h2>Contact me:</h2>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/saanika-fadia/">Saanika Fadia</a></p>
+        <p>Github: <a href="https://www.github.com/supersonik12">supersonik12</a></p>
+        <p>Email: <a href="mailto:saanika.fadia@colorado.edu">saanika.fadia@colorado.edu</a></p>
       </div>
     </div>
-  </body>
+  </div>
 </body>
 
 </html>

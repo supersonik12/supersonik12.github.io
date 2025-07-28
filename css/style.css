@@ -77,7 +77,6 @@ img {
 }
 
 .cell {
-    min-height: 75px;
     flex-grow: 1;
     flex-basis: 100%;
 }
@@ -139,7 +138,7 @@ img {
     background-position: right;
 }
 
-#option3-link {
+#resume-link {
     color: var(--color3-yellowgreen);
     background: linear-gradient(to right, white 50%, var(--color3-yellowgreen) 50%) left;
     background-size: 200%;
@@ -147,7 +146,7 @@ img {
 
 }
 
-#option3-link:hover {
+#resume-link:hover {
     color: white;
     border-color: var(--color3-yellowgreen);
     background-position: right;
@@ -170,6 +169,10 @@ img {
     padding-left: 30px;
 }
 
+.section {
+    min-height: calc(100vh);
+}
+
 .hello {
     color: var(--color1-blue);
 }
@@ -182,7 +185,8 @@ img {
 #projects {
     color: var(--color2-green);
     display: flex;
-    flex-wrap: wrap
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 /* Basic card code from https://www.w3schools.com/howto/howto_css_cards.asp */
@@ -196,6 +200,7 @@ img {
     width: 0; */
     flex-basis: 30%;
     margin: 10px 10px 10px 10px;
+    max-height: 250px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -212,7 +217,7 @@ img {
     height: 0;
 }
 
-#option3 {
+#resume {
     color: var(--color3-yellowgreen);
 }
 
